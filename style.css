@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Smythe', cursive;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+header > img {
+  height: 167px;
+  width: 600px;
+}
+
+.menu-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 0 20px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+}
+
+.add-item {
+  font-size: 50px;
+  margin-left: auto;
+
+  padding-right: 50px;
+}
+
+.menu-emoji {
+  width: 100px;
+  font-size: 78.72px;
+  line-height: 98px;
+  margin: 0;
+}
+
+.menu-title {
+  font-size: 28px;
+  line-height: 17px;
+  margin-bottom: 8px;
+}
+
+.menu-ingredients {
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8b8b;
+  margin: 0;
+}
+
+.menu-item-price {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 8px;
+}
