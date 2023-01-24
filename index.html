@@ -36,6 +36,33 @@
         />
       </header>
       <div id="menu"></div>
+      <div id="modal" class="modal hidden">
+        <form id="form" class="form-items" action="">
+          <label class="label-heading">Enter Card Details</label>
+          <input
+            type="text"
+            id="user-name"
+            placeholder="Enter your name"
+            name="fullName"
+            required
+          />
+          <input
+            type="number"
+            id="user-card-number"
+            placeholder="Enter card number"
+            name="cardnumber"
+            required
+          />
+          <input
+            type="number"
+            id="user-card-cvv"
+            placeholder="Enter CVV"
+            name="cvv"
+            required
+          />
+          <button type="submit" id="pay" class="btn submit-btn">Pay</button>
+        </form>
+      </div>
     </div>
     <script src="script.js" type="module"></script>
   </body>
